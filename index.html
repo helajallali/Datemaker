@@ -1,0 +1,89 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <title>Datemaker</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light" style="
+    background-color: #fa416aff!important;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: #FFF;">DateMaker</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="true" aria-label="Toggle navigation" style="color: rgb(255 255 255 / 55%);border-color: rgb(255 255 255 / 10%);">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="navbar-collapse collapse show" id="navbarTogglerDemo02" style="">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="color: rgb(255 255 255 / 55%);">Mon compte</a></li>
+            <li class="nav-item">
+            <a class="nav-link" href="#" style="color: rgb(255 255 255 / 55%);">Contact</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#" style="color: rgb(255 255 255 / 55%);">Les lieux</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+   
+  <!-- jumbo-->
+    <div class="jumbotron-fluid" style="height:100vh;background-image:url(dateheader.jpeg);background-position: top;background-size: cover;background-position-y: 0px;background-repeat: no-repeat;padding-top: 20px;">
+        <div class=" px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" style="width: 500px; background-color: white; border-radius: 20px; margin-top: 300px;">
+              <h1 class="display-4">DATE MAKER</h1>
+              <p class="lead">Organisez le date parfait !</p>
+              <div class="btn-group"></div>
+              <button type="button" class="btn btn-secondary">Commencer</button>
+    </div>
+    </div>
+
+
+  <!-- Section 1-->
+  <section>
+        <div class="section section-image">
+            <img src="coupleimage.jpg" style="max-width: 100%; border-radius: 20px;">
+        </div><div class="section section-texte" style="">
+            <h1>Essayez-le</h1>
+            <p>Organisez un premier date avec votre système spécialement conçu pour vous proposer plusieurs choix et une expérience unique. Pas de liste, pas de top 5 des meilleurs lieux… juste vos critères et nos suggestions !</p>
+            <button type="button" class="btn btn-secondary">Essai gratuit</button>
+        </div>
+    </section>
+
+
+<!-- Section 2 - Formulaire-->
+<section style="background-color: #f1f1f1;">
+    <div class="formulaire">
+        <h1>Inscrivez-vous pour être tenu au courant du lancement et obtenez 10 crédits !</h1>
+        <input type="text" class="input" placeholder="Prénom,Nom" required />
+        <input type="email" class="input" placeholder="E-mail" required />
+        <button type="button" class="btn btn-secondary">Essai gratuit</button>
+    </div>
+</section>
+
+
+<!-- Section 3 - Footer-->
+<footer>
+    <div class="copyright text-center">Copyright ©2021 Tous droits réservés | Ce site est fait par Héla JALLALI
+    </div>
+    <div class="footer-social">
+        <a href="#twitter" target="_blank" class="footer-social-link w-inline-block"><img src="https://assets.website-files.com/5badda2935e11303a89a461e/5bae5eec5227792568635e37_twitter-icon-white.svg" alt=""></a>
+        <a href="#facebook" target="_blank" class="footer-social-link w-inline-block"><img src="https://assets.website-files.com/5badda2935e11303a89a461e/5bae5eec3cb36463d4cf4661_facebook-icon-white.svg" alt=""></a>
+        <a href="#instagram" target="_blank" class="footer-social-link w-inline-block"><img src="https://assets.website-files.com/5badda2935e11303a89a461e/5bae5eec7fe624275552217c_instagram-icon-white.svg" alt=""></a>
+        <a href="#pinterest" target="_blank" class="footer-social-link w-inline-block"><img src="https://assets.website-files.com/5badda2935e11303a89a461e/5bae5eec6e93377c0bbdba8a_pinterest-icon-white.svg" alt=""></a>
+        <a href="#youtube" target="_blank" class="footer-social-link w-inline-block"><img src="https://assets.website-files.com/5badda2935e11303a89a461e/5bae5eecfff242b7c309e311_youtube-icon.svg" alt=""></a>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script>
+        	$("a[href='#']").on("click", function(e){
+        		e.preventDefault();
+        	});
+        	$(".navbar-toggler").on("click", function(e){
+        		$(this).toggleClass("collapsed");
+        		$(".navbar-collapse").toggle();
+        	});
+        </script>
+</body></html>
